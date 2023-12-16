@@ -791,6 +791,23 @@ h2 {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 600px) {
+  .contact-hero-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-heading {
+    width: 60%;
+  }
+  .contact-msg {
+    width: 60%;
+  }
+  .pill-section {
+    margin-top: 2em;
+  }
+}
+
 .circle-icon {
   font-size: 2em;
 }
@@ -829,6 +846,16 @@ h2 {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .address-area {
+    margin-top: 5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
 }
 
 .address-card {
@@ -880,6 +907,19 @@ h2 {
   margin: 5em 10em;
   height: 5em;
   border-radius: 3em;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-section{
+    margin: 5em 5em;
+    flex-direction: column;
+  }
+  .contact-section .form-image {
+    display: none;
+  }
+  .form-column h1 {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 1150px) {
